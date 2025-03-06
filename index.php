@@ -28,7 +28,6 @@
 date_default_timezone_set('Asia/Seoul');
 $parentPath = __DIR__;
 
-
 class VersionRedirector {
     public $higherTeam;
     public $StageFolderManager;
@@ -47,10 +46,9 @@ class VersionRedirector {
         $this->Sender = new Sender($this, $parentPath);
     }
 
-
+    
     public function redirect(){
         // CORE
-
         $redirected = null;
 
         // READY
