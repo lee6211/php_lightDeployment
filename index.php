@@ -11,8 +11,8 @@
     to avoid versioning incomplete file set.
     
     After putting 'DONE.txt' file,
-    this will make new version folder, 
-    and have visitors redirected to it.
+    this will rename stage folder to a version folder, 
+    and serve it to visitors.
     
     Don't forget 'DONE.txt'
     
@@ -72,8 +72,8 @@ class VersionRedirector {
             <br> to avoid versioning incomplete file set.
             <br> 
             <br> After putting 'DONE.txt' file,
-            <br> this will make new version folder, 
-            <br> and have visitors redirected to it.
+            <br> this will rename stage folder to a version folder, 
+            <br> and serve it to visitors.
             <br> 
             <br> Don't forget 'DONE.txt'
             <br> 
