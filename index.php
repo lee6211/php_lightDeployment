@@ -32,7 +32,7 @@
 
         [READY]
         * StageFolderManager
-            * ErrorHandler
+        * ErrorHandler
 
         [START]
         * LatestFolderResolver
