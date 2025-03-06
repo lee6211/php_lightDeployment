@@ -25,8 +25,26 @@
 // ################################################################
 // ________________________________________________________________
 // [CORE]
+// Organization Structure
+/* 
+    [Core]
+    * VersionRedirector
+
+        [READY]
+        * StageFolderManager
+            * ErrorHandler
+
+        [START]
+        * LatestFolderResolver
+
+        [END]
+        * Sender
+
+*/
+
 date_default_timezone_set('Asia/Seoul');
 $parentPath = __DIR__;
+
 
 class VersionRedirector {
     public $higherTeam;
@@ -262,7 +280,6 @@ class ErrorHandler {
 // ################################################################
 // ________________________________________________________________
 // [START]
-
 class LatestFolderResolver {
     public $higherTeam;
 
