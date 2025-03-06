@@ -1,4 +1,4 @@
-# php_manpowerDeployment
+# Manpower Deployment
 A brutally simple PHP-based versioned deployment system that needs your manpower. No magic, no complication, nothing to learn.
 
 # How to use
