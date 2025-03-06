@@ -7,9 +7,9 @@ Then it will automatically set up the deployment and then display instructions o
 
 1. Put files on `stage` folder.
 2. When uploading done, then put an empty `DONE.txt` on `stage` folder. 
-3. Done. Visit your URL.
+3. Done.
 
-It will move everything to a timestamped version folder (vYYMMDD-HHMMSS) and serve the latest version automatically.
+Now visit your URL again. It will move everything to a timestamped version folder (vYYMMDD-HHMMSS) and serve the latest version.
 Needs your manpower, but that means intuitive.
 
 # Features
