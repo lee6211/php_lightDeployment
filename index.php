@@ -2,7 +2,7 @@
 // ################################################################
 // ________________________________________________________________
 /*
-    < Versioning Redirector >
+    < Manpower Deployment >
 
     This is not yet fully automated.
 
@@ -64,7 +64,7 @@ class VersionRedirector {
         $set_destination = $this->LatestFolderResolver->set_newest();
         if (!$set_destination) {
             $welcomeMsg = "
-            <br><h2> < Versioning Redirector > </h2>
+            <br><h2> < Manpower Deployment > </h2>
             <br><b> Setup Completed! </b>
             <br>
             <br> Put Files on 'stage' folder for automatic versioning and redirecting.
@@ -78,7 +78,7 @@ class VersionRedirector {
             <br> Don't forget 'DONE.txt'
             <br> 
             <br> 
-            <br> - 250304 / Junghoon Lee (ljhbunker.com)";
+            <br> - 250304 / Junghoon Lee (lee62113@naver.com / ljhbunker.com)";
 
             echo $welcomeMsg;
             return false;
