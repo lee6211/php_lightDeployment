@@ -17,7 +17,7 @@
     Don't forget 'DONE.txt'
     
     
-    - 250304 / Junghoon Lee (ljhbunker.com)";
+    - 250304 / Junghoon Lee (lee62113@naver.com / ljhbunker.com)";
 */
 
 
